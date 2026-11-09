@@ -417,3 +417,26 @@ body{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
 }
+
+#a5{
+    position: absolute;
+    font-size: 3vmax;
+    left: 32vmax;
+    top: -1.5vmax;
+}
+
+#link2{
+    position: absolute;
+    left: 49vmax;
+    top: 1.5vmax;
+    font-size: 2vmax;
+    color: black;
+}
+
+#link2:hover{
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#link2:active{
+    color: black;
+}
