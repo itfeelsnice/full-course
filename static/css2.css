@@ -2,7 +2,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(89, 97, 112);
+    /* background-color: rgb(89, 97, 112); */
+    background-image: linear-gradient(to left, yellow, blue);
     height: 320vmax;
 }
 
@@ -53,7 +54,7 @@ body{
     width: 10.5vmax;
     height: 16vmax;
     opacity: 0;
-    background:rgba(255, 255, 255, 0.1);
+    background:rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(100px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 10;
