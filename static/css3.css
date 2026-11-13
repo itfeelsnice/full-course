@@ -82,7 +82,7 @@ body{
 
 #html1{
     top: 0.5vmax;
-    background-image: linear-gradient(to left, orange,  orange, white, white);
+    background-image: linear-gradient(to left, blue, blue, blue, rgb(251, 255, 33), rgb(251, 255, 33), rgb(251, 255, 33));
 }
 
 #css1{
@@ -368,5 +368,49 @@ body{
     color: black;
 }
 
+
+
+
+
+
+.block1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    animation: change1 1s linear infinite;
+}
+
+#block2{
+    left: 90%;
+    top: 12vmax;
+}
+
+#block3{
+    left: 10%;
+    top: 40vmax;
+}
+
+#block4{
+    left: 32%;
+    top: 72vmax;
+}
+
+#block5{
+    left: 85%;
+    top: 100vmax;
+}
+
+#block6{
+    left: 10%;
+    top: 120vmax;
+}
+
+#block7{
+    left: 5%;
+    top: 150vmax;
+}
 
 

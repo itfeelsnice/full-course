@@ -1,0 +1,462 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to left, white, blue);
+    height: 275vmax;
+}
+
+#title1{
+    position: relative;
+    height: 4vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    width: 40vmax;
+    left: 30vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    top: 1.5vmax;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title1:hover{
+    animation: change1 1s linear infinite;
+}
+
+@keyframes change1{
+    0%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+    50%{box-shadow: 5px 5px 50px gray, -5px -5px 50px gray;}
+    80%{box-shadow: 5px 5px 80px gray, -5px -5px 80px gray;}
+    100%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+}
+
+#a1{
+    font-size: 2vmax;
+}
+
+#btn1{
+    position: fixed;
+    left: 0.5vmax;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    font-size: 1.5vmax;
+    border-radius: 10px;
+    top: 2vmax;
+}
+
+#box2{
+    position: fixed;
+    left: 0.8vmax;
+    top: 5vmax;
+    width: 10.5vmax;
+    height: 16vmax;
+    opacity: 0;
+    background:rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(100px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
+
+#box2.show1{
+    opacity: 1;
+}
+
+.links1{
+    position: absolute;
+    font-size: 1vmax;
+    background-clip: text;
+    color: transparent;
+}
+
+.links1:hover{
+    color: rgb(62, 70, 85);
+}
+
+.links1:active{
+    color: black;
+}
+
+
+#html1{
+    top: 0.5vmax;
+    background-image: linear-gradient(to left, blue, blue, blue, rgb(251, 255, 33), rgb(251, 255, 33), rgb(251, 255, 33));
+}
+
+#css1{
+    top: 2.5vmax;
+    background-image: linear-gradient(to left, orange,  orange, white, white);
+}
+
+#js1{
+    top: 4.5vmax;
+    background-image: linear-gradient(to left, black, black,  black, yellow, yellow, yellow);
+}
+
+#git1{
+    top: 6.5vmax;
+    background-image: linear-gradient(to left, white, white,  white, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0));
+
+}
+
+#sql1{
+    top: 8.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, purple, purple, purple);
+}
+
+#cmd1{
+    top:10.5vmax;
+    background-image: linear-gradient(to left, green, green,  green, black, black, black);
+}
+
+#nt1{
+    top: 12.5vmax;
+    background-image: linear-gradient(to left, aqua, aqua,  aqua, white, white, white, white);
+}
+
+#main1{
+    top: 14.5vmax;
+    color: black;
+}
+
+#main1:hover{
+    color: rgb(62, 70, 85);
+}
+
+#main1:active{
+    color: black;
+}
+
+#fonts1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 5vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#fonts1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title2{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img1{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 1.2vmax;
+}
+
+#sizes1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 38vmax;
+    top: 15vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#sizes1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#line1{
+    position: absolute;
+    left: 60vmax;
+    top: 45vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(-45deg);
+}
+
+#title3{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img2{
+    position: absolute;
+    top: 10vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 3vmax;
+}
+
+#line2{
+    position: absolute;
+    left: 70vmax;
+    top: 89vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(-45deg);
+}
+
+#pseudo1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 50vmax;
+    top: 23vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title4{
+    position: absolute;
+    width: 30vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 5vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img3{
+    position: absolute;
+    top: 3vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 3.5vmax;
+}
+
+#animation1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 31vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title5{
+    position: absolute;
+    width: 30vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 5vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#line3{
+    position: absolute;
+    left: 60vmax;
+    top: 132vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(45deg);
+}
+
+#img4{
+    position: absolute;
+    top: 4vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 4vmax;
+}
+
+#position1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 15vmax;
+    top: 40vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title6{
+    position: absolute;
+    width: 30vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 5vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img5{
+    position: absolute;
+    top: 4vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 4.5vmax;
+}
+
+#line4{
+    position: absolute;
+    left: 30vmax;
+    top: 175vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(45deg);
+}
+
+#example1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 47vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title7{
+    position: absolute;
+    width: 30vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 5vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img6{
+    position: absolute;
+    top: 4vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 3vmax;
+}
+
+
+#foot1{
+    position: relative;
+    width: 100%;
+    height: 5vmax;
+    top: 56vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+}
+
+#a5{
+    position: absolute;
+    font-size: 3vmax;
+    left: 32vmax;
+    top: -1.5vmax;
+}
+
+#link2{
+    position: absolute;
+    left: 49vmax;
+    top: 1.5vmax;
+    font-size: 2vmax;
+    color: black;
+}
+
+#link2:hover{
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#link2:active{
+    color: black;
+}
+
+#line5{
+    position: absolute;
+    left: 40vmax;
+    top: 219vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(-45deg);
+}
+
+.block1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    animation: change1 1s linear infinite;
+}
+
+#block2{
+    left: 90%;
+    top: 12vmax;
+}
+
+#block3{
+    left: 10%;
+    top: 40vmax;
+}
+
+#block4{
+    left: 30%;
+    top: 70vmax;
+}
+
+#block5{
+    left: 40%;
+    top: 100vmax;
+}
+
+#block6{
+    left: 15%;
+    top: 120vmax;
+}
+
+#block7{
+    left: 5%;
+    top: 150vmax;
+}
+
+#block8{
+    left: 75%;
+    top: 160vmax;
+}
+
+#block9{
+    left: 60%;
+    top: 200vmax;
+}
