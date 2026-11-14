@@ -1,0 +1,134 @@
+
+body{
+    background-image: linear-gradient(to left, yellow, yellow, black, black, black);
+    margin: 0px;
+    padding: 0px;
+    height: 200vmax;
+}
+
+#title1{
+    position: relative;
+    height: 4vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    width: 40vmax;
+    left: 30vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    top: 1.5vmax;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title1:hover{
+    animation: change1 1s linear infinite;
+}
+
+@keyframes change1{
+    0%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+    50%{box-shadow: 5px 5px 50px gray, -5px -5px 50px gray;}
+    80%{box-shadow: 5px 5px 80px gray, -5px -5px 80px gray;}
+    100%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+}
+
+#a1{
+    font-size: 2vmax;
+}
+
+
+#btn1{
+    position: fixed;
+    left: 0.5vmax;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    font-size: 1.5vmax;
+    border-radius: 10px;
+    top: 2vmax;
+}
+
+#box2{
+    position: fixed;
+    left: 0.8vmax;
+    top: 5vmax;
+    width: 10.5vmax;
+    height: 16vmax;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
+
+#box2.show1{
+    opacity: 1;
+}
+
+.links1{
+    position: absolute;
+    font-size: 1vmax;
+    background-clip: text;
+    color: transparent;
+}
+
+.links1:hover{
+    color: rgb(62, 70, 85);
+}
+
+.links1:active{
+    color: black;
+}
+
+#html1{
+    top: 0.5vmax;
+    background-image: linear-gradient(to left, blue, blue, blue, rgb(251, 255, 33), rgb(251, 255, 33), rgb(251, 255, 33));
+}
+
+#css1{
+    top: 2.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, white, white, white);
+}
+
+#js1{
+    top: 4.5vmax;
+    background-image: linear-gradient(to left, black, black,  black, yellow, yellow, yellow);
+}
+
+#git1{
+    top: 6.5vmax;
+    background-image: linear-gradient(to left, white, white,  white, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0));
+
+}
+
+#sql1{
+    top: 8.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, purple, purple, purple);
+}
+
+#cmd1{
+    top:10.5vmax;
+    background-image: linear-gradient(to left, green, green,  green, black, black, black);
+}
+
+#nt1{
+    top: 12.5vmax;
+    background-image: linear-gradient(to left, aqua, aqua,  aqua, white, white, white, white);
+}
+
+#main1{
+    top: 14.5vmax;
+    color: black;
+}
+
+#main1:hover{
+    color: rgb(62, 70, 85);
+}
+
+#main1:active{
+    color: black;
+}
+
+
+
+
+

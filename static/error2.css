@@ -1,0 +1,77 @@
+
+body{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(89, 97, 112);
+}
+
+@keyframes size1{
+    0%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+    50%{box-shadow: 15px 15px 30px gray, -15px -15px 30px gray;}
+    100%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+}
+
+#error1{
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    width: 30vmax;
+    height: 40vmax;
+    left: 34vmax;
+    top: 1vmax;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#error1:hover{
+    animation: size1 1s linear infinite;
+}
+
+#a1{
+    left: 5vmax;
+    text-align: center;
+    position: absolute;
+    font-size: 3vmax;
+    width: 20vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+}
+
+#a2{
+    position: absolute;
+    top: 10vmax;
+    width: 10vmax;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    left: 10vmax;
+}
+
+#div1{
+    position: relative;
+    top: 90%;
+    left: 3vmax;
+    font-size: 1.5vmax;
+}
+
+#link1{
+    position: absolute;
+    left: 16vmax;
+    top: 1vmax;
+    color: black;
+}
+
+#link1:hover{
+    color: rgba(255, 255, 255, 0.1);
+}
+
+#link1:active{
+    color: black;
+}
+
+
+
+
+

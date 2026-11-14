@@ -26,6 +26,10 @@ execute1.execute("""CREATE TABLE IF NOT EXISTS path1(
                 )""")
 connect1.commit()
 
+@start1.errorhandler(404)
+def handle_errors1(ok1):
+    return render_template("error1.html")
+
 @start1.after_request
 def function_set1(response1):
     csp_rules1 = ("default-src 'self'; "
