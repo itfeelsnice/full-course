@@ -267,6 +267,10 @@ body{
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
 }
 
+#loops1:hover{
+    animation: change1 1s linear infinite;
+}
+
 #line3{
     position: absolute;
     left: 42vmax;
@@ -295,6 +299,10 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#function1:hover{
+    animation: change1 1s linear infinite;
 }
 
 #title5{
@@ -339,6 +347,10 @@ body{
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
 }
 
+#try1:hover{
+    animation: change1 1s linear infinite;
+}
+
 #title6{
     position: absolute;
     width: 30vmax;
@@ -379,6 +391,10 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#example1:hover{
+    animation: change1 1s linear infinite;
 }
 
 #title7{

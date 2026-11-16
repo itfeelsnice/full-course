@@ -223,6 +223,10 @@ body{
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
 }
 
+#inp1:hover{
+    animation: change1 1s linear infinite;
+}
+
 #title4{
     position: absolute;
     width: 30vmax;
@@ -265,6 +269,10 @@ body{
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
 }
 
+#link1:hover{
+    animation: change1 1s linear infinite;
+}
+
 #title5{
     position: absolute;
     width: 30vmax;
@@ -305,6 +313,10 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(100px);
     box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#example1:hover{
+    animation: change1 1s linear infinite;
 }
 
 #title6{
