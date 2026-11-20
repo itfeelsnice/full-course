@@ -384,3 +384,71 @@ body{
 #account1:active{
     color: black;
 }
+
+@keyframes opac1{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+#set1{
+    position: fixed;
+    width: 50vmax;
+    height: 10vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+    top: 38vmax;
+    border-radius: 30px;
+    left: 25vmax;
+    z-index: 10;
+    opacity: 1;
+    animation: opac1 7s linear 1;
+}
+
+#a5{
+    position: absolute;
+    font-size: 1.5vmax;
+    width: 30vmax;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    padding: 2px;
+    top: 0.3vmax;
+    left: 18vmax;
+}
+
+#btn2{
+    position: absolute;
+    font-size: 2vmax;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    top: 2vmax;
+    left: 2vmax;
+}
+
+#btn3{
+    position: absolute;
+    font-size: 2vmax;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 2vmax;
+    top: 6vmax;
+}
+
+.btns:hover{
+    animation: hover1 2s linear infinite;
+}
+
+@keyframes hover1{
+    0%{background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(100px);}
+    50%{background: rgba(150, 20, 20, 0.5); backdrop-filter: blur(100px);}
+    100%{background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(100px);}
+}
+
+.add1{
+    visibility: hidden;
+}
+
