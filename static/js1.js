@@ -6,9 +6,12 @@ let set1 = document.querySelector("#set1");
 fetch("/check_cookie1").then(get1 => get1.text()).then(data1 =>{
     if (data1 === "set_cookie1"){
         set1.classList.add("add1");
+        console.log("there is a cookie")
+    }else if(data1 === "it_dosent_exist1"){
+        console.log("there is no cookie")
     }
 });
-    
+
 btn2.addEventListener("click", () =>{
 
     set1.classList.add("add1");

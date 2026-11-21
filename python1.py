@@ -91,6 +91,14 @@ def get1():
     cookie_exist1 = request.cookies.get("cookie1")
     if cookie_exist1:
         return "set_cookie1"
+    else:
+        # here the program threw an error
+        # that didnt affect the anything but it showed in the console (500 error)
+        # cause when the javascript got the /check_cookie it only had a condition when it exists
+        # but when it didnt, it didnt know what to do with it so it threw an error
+        # so now i fixed it by adding the else statement
+
+        return "it_dosent_exist1"
     
 @start1.route("/htmlex")
 def html1():
@@ -127,10 +135,3 @@ def py1():
 start1.run(debug=True)
 connect1.cancel()
 
-# many of the things writed in this commit i didnt knew before so i dont know how to fully use them yet
-# but i got an idea about them like fetch in javascript (headers, body and method and that i am giving the
-# information to the route name "/etc")
-
-# or the json things i knew about them but i havnt used them in a long time so i forgot most of the things about them
-
-# after this project is done i will practice with them because this is just so new to me like its insane
