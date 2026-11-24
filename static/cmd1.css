@@ -1,0 +1,382 @@
+
+
+body{
+    background-image: linear-gradient(to left, green, green,  green, black, black, black, black);
+    margin: 0px;
+    padding: 0px;
+    height: 231vmax;
+}
+
+#title1{
+    position: relative;
+    height: 4vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    width: 40vmax;
+    left: 30vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    top: 1.5vmax;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title1:hover{
+    animation: change1 1s linear infinite;
+}
+
+@keyframes change1{
+    0%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+    50%{box-shadow: 5px 5px 50px gray, -5px -5px 50px gray;}
+    80%{box-shadow: 5px 5px 80px gray, -5px -5px 80px gray;}
+    100%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+}
+
+#a1{
+    font-size: 2vmax;
+}
+
+#btn1{
+    position: fixed;
+    left: 0.5vmax;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    font-size: 1.5vmax;
+    border-radius: 10px;
+    top: 2vmax;
+}
+
+#box2{
+    position: fixed;
+    left: 0.8vmax;
+    top: 5vmax;
+    width: 10.5vmax;
+    height: 16vmax;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(100px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
+
+#box2.show1{
+    opacity: 1;
+}
+
+.links1{
+    position: absolute;
+    font-size: 1vmax;
+    background-clip: text;
+    color: transparent;
+}
+
+.links1:hover{
+    color: rgb(62, 70, 85);
+}
+
+.links1:active{
+    color: black;
+}
+
+#html1{
+    top: 0.5vmax;
+    background-image: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0), white, white,  white);
+}
+
+#css1{
+    top: 2.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, white, white, white);
+}
+
+#js1{
+    top: 4.5vmax;
+    background-image: linear-gradient(to left, blue, blue, blue, rgb(251, 255, 33), rgb(251, 255, 33), rgb(251, 255, 33))
+}
+
+#git1{
+    top: 6.5vmax;
+    background-image: linear-gradient(to left, black, black,  black, yellow, yellow, yellow);
+
+}
+
+#sql1{
+    top: 8.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, purple, purple, purple);
+}
+
+#cmd1{
+    top:10.5vmax;
+    background-image: linear-gradient(to left,  white, white,  white, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0));
+}
+
+#nt1{
+    top: 12.5vmax;
+    background-image: linear-gradient(to left, aqua, aqua,  aqua, white, white, white, white);
+}
+
+#main1{
+    top: 14.5vmax;
+    color: black;
+}
+
+#main1:hover{
+    color: rgb(62, 70, 85);
+}
+
+#main1:active{
+    color: black;
+}
+
+#create1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 5vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#create1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title2{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img1{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 8vmax;
+}
+
+#line1{
+    position: absolute;
+    left: 35vmax;
+    top: 43.5vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(45deg);
+}
+
+#cd1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 10vmax;
+    top: 14vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#cd1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title3{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img2{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 6.5vmax;
+}
+
+#del1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 25vmax;
+    top: 22vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#del1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title4{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img3{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 8vmax;
+}
+
+#line2{
+    position: absolute;
+    left: 40vmax;
+    top: 88vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(-45deg);
+}
+
+#copy1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 40vmax;
+    top: 30vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#copy1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title5{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img4{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 5.5vmax;
+}
+
+#line3{
+    position: absolute;
+    left: 50vmax;
+    top: 131vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(-45deg);
+}
+
+#exit1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 38vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#exit1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title6{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#img5{
+    position: absolute;
+    top: 8vmax;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    left: 5vmax;
+}
+
+#line4{
+    position: absolute;
+    left: 50vmax;
+    top: 175vmax;
+    height: 6vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#foot1{
+    position: relative;
+    width: 100%;
+    height: 5vmax;
+    top: 47vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+}
+
+#a5{
+    position: absolute;
+    font-size: 3vmax;
+    left: 32vmax;
+    top: -1.5vmax;
+}
+
+#link2{
+    position: absolute;
+    left: 49vmax;
+    top: 1.5vmax;
+    font-size: 2vmax;
+    color: black;
+}
+
+#link2:hover{
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#link2:active{
+    color: black;
+}
+
+
+
