@@ -4,8 +4,10 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 import datetime
-import smtplib
 import json
+import re
+
+email_match = r"^[\w\.-]+@[\w\.-]+\.\w+$"
 
 load_dotenv("secret1.env")
 
@@ -80,9 +82,12 @@ def function1():
     if request.method == "POST":
         email1 = request.form.get("input1")
         datetime1 = datetime.datetime.now()
-        execute1.execute("INSERT INTO path1 (email1, datetime1) VALUES (%s, %s)", (email1, datetime1))
-        connect1.commit()
-        return render_template("html1.html")
+        if re.match(email_match, email1):
+            execute1.execute("INSERT INTO path1 (email1, datetime1) VALUES (%s, %s)", (email1, datetime1))
+            connect1.commit()
+            return render_template("html1.html", email1 = "THANK FOR SUPPORTING")
+        else:
+            return render_template("html1.html", email1 = "PLESE ENTER A VALID EMAIL")
     
     return render_template("html1.html")
 

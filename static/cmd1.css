@@ -1,5 +1,4 @@
 
-
 body{
     background-image: linear-gradient(to left, green, green,  green, black, black, black, black);
     margin: 0px;
@@ -378,5 +377,48 @@ body{
     color: black;
 }
 
+.block1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    animation: change1 1s linear infinite;
+}
 
+#block2{
+    top: 20vmax;
+    left: 15vmax;
+}
+
+#block3{
+    top: 35vmax;
+    left: 75vmax;
+}
+
+#block4{
+    top: 120vmax;
+    left: 5vmax;
+}
+
+#block5{
+    top: 60vmax;
+    left: 90vmax;
+}
+
+#block6{
+    top: 150vmax;
+    left: 25vmax;
+}
+
+#block7{
+    top: 175vmax;
+    left: 85vmax;
+}
+
+#block8{
+    top: 105vmax;
+    left: 85vmax;
+}
 

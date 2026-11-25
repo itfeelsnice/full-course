@@ -1,0 +1,255 @@
+
+body{
+    background-image: linear-gradient(to left, white, white, white, white, aqua, aqua,  aqua);
+    margin: 0px;
+    padding: 0px;
+    height: 231vmax;
+}
+
+#title1{
+    position: relative;
+    height: 4vmax;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    width: 40vmax;
+    left: 30vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    top: 1.5vmax;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#title1:hover{
+    animation: change1 1s linear infinite;
+}
+
+@keyframes change1{
+    0%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+    50%{box-shadow: 5px 5px 50px gray, -5px -5px 50px gray;}
+    80%{box-shadow: 5px 5px 80px gray, -5px -5px 80px gray;}
+    100%{box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;}
+}
+
+#a1{
+    font-size: 2vmax;
+}
+
+#btn1{
+    position: fixed;
+    left: 0.5vmax;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    font-size: 1.5vmax;
+    border-radius: 10px;
+    top: 2vmax;
+}
+
+#box2{
+    position: fixed;
+    left: 0.8vmax;
+    top: 5vmax;
+    width: 10.5vmax;
+    height: 16vmax;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
+
+#box2.show1{
+    opacity: 1;
+}
+
+.links1{
+    position: absolute;
+    font-size: 1vmax;
+    background-clip: text;
+    color: transparent;
+}
+
+.links1:hover{
+    color: rgb(62, 70, 85);
+}
+
+.links1:active{
+    color: black;
+}
+
+#html1{
+    top: 0.5vmax;
+    background-image: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0), white, white,  white);
+}
+
+#css1{
+    top: 2.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, white, white, white);
+}
+
+#js1{
+    top: 4.5vmax;
+    background-image: linear-gradient(to left, blue, blue, blue, rgb(251, 255, 33), rgb(251, 255, 33), rgb(251, 255, 33))
+}
+
+#git1{
+    top: 6.5vmax;
+    background-image: linear-gradient(to left, black, black,  black, yellow, yellow, yellow);
+
+}
+
+#sql1{
+    top: 8.5vmax;
+    background-image: linear-gradient(to left, blue, blue,  blue, purple, purple, purple);
+}
+
+#cmd1{
+    top:10.5vmax;
+    background-image: linear-gradient(to left,  white, white,  white, rgb(255, 145, 0), rgb(255, 145, 0), rgb(255, 145, 0));
+}
+
+#nt1{
+    top: 12.5vmax;
+    background-image: linear-gradient(to left, green, green,  green, black, black, black, black);
+}
+
+#main1{
+    top: 14.5vmax;
+    color: black;
+}
+
+#main1:hover{
+    color: rgb(62, 70, 85);
+}
+
+#main1:active{
+    color: black;
+}
+
+#idea1{
+    position: relative;
+    width: 40vmax;
+    height: 35vmax;
+    left: 30vmax;
+    top: 5vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#idea1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title2{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(8, 8, 8, 0.2);
+}
+
+#img1{
+    position: absolute;
+    top: 10vmax;
+    border: 10px solid rgba(8, 8, 8, 0.2);
+    left: 5.5vmax;
+}
+
+#line1{
+    position: absolute;
+    left: 30vmax;
+    top: 44vmax;
+    height: 8.5vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(45deg);
+}
+
+#ip1{
+    position: relative;
+    width: 40vmax;
+    height: 45vmax;
+    left: 5vmax;
+    top: 13vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#ip1:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title3{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(8, 8, 8, 0.2);
+}
+
+#img2{
+    position: absolute;
+    top: 6vmax;
+    border: 10px solid rgba(8, 8, 8, 0.2);
+    left: 1.8vmax;
+}
+
+#ip2{
+    position: relative;
+    width: 40vmax;
+    height: 45vmax;
+    left: 55vmax;
+    top: -32vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+}
+
+#ip2:hover{
+    animation: change1 1s linear infinite;
+}
+
+#title4{
+    position: absolute;
+    width: 28vmax;
+    text-align: center;
+    height: 2vmax;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    left: 6vmax;
+    border: 1px solid rgba(8, 8, 8, 0.2);
+}
+
+#img3{
+    position: absolute;
+    top: 8vmax;
+    border: 10px solid rgba(8, 8, 8, 0.2);
+    left: 2vmax;
+}
+
+#line2{
+    position: absolute;
+    left: 50vmax;
+    top: 70vmax;
+    height: 6vmax;
+    width: 7px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    transform: rotateZ(90deg);
+}
